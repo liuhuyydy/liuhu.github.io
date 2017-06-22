@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[Sublime 快捷键]]></title>
     <url>%2F2017%2F06%2F21%2FSublime-%E5%BF%AB%E6%8D%B7%E9%94%AE%2F</url>
-    <content type="text"><![CDATA[Sublime 学习===== Sublime 快捷键Ctrl + Shift + t ：恢复关闭Tab编辑页面 Sublime 三种模式1、插入模式 2、命令模式 3、行末模式 4 、改变sublime默认打开模式(参数-》首选项)“vintage_start_in_command_mode”: true 5、三种模式之间切换 a.命令模式进入编辑模式： 1）i (光标前插入) 2）a (光标后面插入) 3) o (换行插入) 4）s (替换插入)]]></content>
+    <content type="text"><![CDATA[Sublime 学习===== Sublime 快捷键Ctrl + Shift + t ：恢复关闭Tab编辑页面 Sublime 三种模式1、插入模式 2、命令模式 3、行末模式 4 、改变sublime默认打开模式(参数-》首选项)“vintage_start_in_command_mode”: true 5、三种模式之间切换: a.命令模式进入编辑模式： 1）i (光标前插入) 2）a (光标后面插入) 3) o (换行插入) 4）s (替换插入) 5) I (行前插入） 6) A (行尾插入） 7）O (插入空行) 8) S (删除整行) b.命令模式进入行末模式： 使用&quot;:&quot;(冒号) c.行末模式返回命令行模式： esc键 d. 命令模式返回插入模式: esc键 6、命令行模式23个快捷命令]]></content>
   </entry>
   <entry>
     <title><![CDATA[我的第一篇博客]]></title>
