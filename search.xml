@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[Sublime 快捷键]]></title>
+    <title><![CDATA[Sublime Vintage 插件快捷键]]></title>
     <url>%2F2017%2F06%2F21%2FSublime-%E5%BF%AB%E6%8D%B7%E9%94%AE%2F</url>
-    <content type="text"><![CDATA[Sublime 学习===== Sublime 快捷键Ctrl + Shift + t ：恢复关闭Tab编辑页面 Sublime 三种模式1、插入模式 2、命令模式 3、行末模式 4 、改变sublime默认打开模式(参数-》首选项)“vintage_start_in_command_mode”: true 5、三种模式之间切换: a.命令模式进入编辑模式： 1）i (光标前插入) 2）a (光标后面插入) 3) o (换行插入) 4）s (替换插入) 5) I (行前插入） 6) A (行尾插入） 7）O (插入空行) 8) S (删除整行) b.命令模式进入行末模式： 使用&quot;:&quot;(冒号) c.行末模式返回命令行模式： esc键 d. 命令模式返回插入模式: esc键 6、命令行模式23个快捷命令]]></content>
+    <content type="text"><![CDATA[Sublime vintage 插件快捷方式Sublime 默认打开模式改变sublime默认打开模式(参数-》首选项) :&quot;vintage_start_in_command_mode&quot;: true Sublime 三种模式 插入模式 命令模式 行末模式 三种模式之间切换命令模式进入插入模式 i (从目前光标所在的位置开始插入) a (从目前光标所在行的下一个字符处开始插入) o (在目前光标所在的下一行处插入新的一行) s (替换当前光标所在的字符) I (光标字符所在行第一个非空字符前开始插入） A (从目前光标所在行的最后一个字符开始插入） O (在目前光标所在行的上面一行插入新的一行) S (删除当前光标所在的行，进入插入模式) 命令模式进入行末模式 使用 “:”(冒号) 行末模式返回命令行模式 [Esc] 键 命令模式返回插入模式 [Esc]键 取代模式 r进入取代模式(Replace mode)：r 只会取代光标所在的那一个字符一次；(常用) 命令模式常用快捷方式汇总光标移动 h 光标向左移动一个字符 j 光标向下移动一个字符 k 光标向上移动一个字符 l 光标向右移动一个字符 nG n为数字，移动文档的第n行。10G会移动到文档的第10行gg 移动到文档第一行，相当于1G 删除 x 在光标所在位置向后删除一个字符，相当于【Delete】键nx 在光标所在位置向后连续删除n个字符，如5x，连续删除5个字符 dd 删除光标所在的整行ndd n为具体数字，删除光标所在行以及所在行之后的N-1行 d1G 删除光标所在行到第一行之间的所有行dG 删除光标所在行到最后一行之间的所有行 粘贴与复制 yy 复制光标所在的整行nyy n为数字，复制光标所在行以及向下n-1行，20yy则是复制20行 p 在当前光标下一行粘贴已经复制的数据np n为数字，在当前光标下一行粘贴n遍已经复制的数据，20p会粘贴20次复制数据 P 在当前光标上一行粘贴已经复制的数据nP n为数字，在当前光标上一行粘贴n遍已经复制的数据，20p会粘贴20次复制数据 撤销与重做 u: 撤销ctrl + y：重做 末行模式 快捷键保存文件 :w(保存文件)]]></content>
+      <categories>
+        <category>Sublime</category>
+      </categories>
+      <tags>
+        <tag>Sublime vintage快捷键</tag>
+      </tags>
   </entry>
   <entry>
     <title><![CDATA[我的第一篇博客]]></title>
     <url>%2F2017%2F06%2F21%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
-    <content type="text"><![CDATA[这是自己用hexo写的第一篇博客，现在为止还不清楚除了普通文本外如何编辑其他格式数据，希望自己能坚持写下去，把自己工作和学习中的一些心得体会记录下来，一是方便自己查阅，另外也给其他遇到同样问题的老铁一个参考。 以上是摘要以下是余下全文]]></content>
+    <content type="text"><![CDATA[这是自己用hexo写的第一篇博客，现在为止还不清楚除了普通文本外如何编辑其他格式数据，希望自己能坚持写下去，把自己工作和学习中的一些心得体会记录下来，一是方便自己查阅，另外也给其他遇到同样问题的老铁一个参考。]]></content>
       <categories>
         <category>随笔</category>
       </categories>
@@ -19,6 +25,6 @@
   <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2017%2F06%2F21%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deiiploy More info: Deployment]]></content>
   </entry>
 </search>
